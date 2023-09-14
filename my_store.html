@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Store</title>
+  <style>
+    /* General styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('images/NicePng_light.png');
+      background-size: cover;
+    }
+
+    /* Header styles */
+    header {
+      text-align: center;
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    /* Logo styles */
+    .logo {
+      width: 200px;
+    }
+
+    /* Products styles */
+    #products {
+      text-align: center;
+    }
+
+    .product {
+      display: inline-block;
+      margin: 20px;
+    }
+    .product img {
+      width: 150px;
+      height: 150px;
+    }
+
+    /* Facebook info styles */
+    .facebook-info {
+      margin-top: 40px;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header and Logo -->
+  <header>
+    <h1>
+      <img src="images/logo.jpeg" alt="Your Store Logo" class="logo">
+      Your Store
+    </h1>
+  </header>
+
+  <!-- Products Section -->
+  <section id="products">
+    <div class="product">
+      <a href="text_files/product1.txt" target="_blank">
+        <img src="images/1.jpeg" alt="Product 1">
+      </a>
+    </div>
+    <div class="product">
+      <a href="text_files/product2.txt" target="_blank">
+        <img src="images/2.jpeg" alt="Product 2">
+      </a>
+    </div>
+    <div class="product">
+      <a href="text_files/product3.txt" target="_blank">
+        <img src="images/3.jpeg" alt="Product 3">
+      </a>
+    </div>
+    <div class="product">
+      <a href="text_files/product4.txt" target="_blank">
+        <img src="images/4.jpeg" alt="Product 4">
+      </a>
+    </div>
+  </section>
+
+  <!-- Facebook Information -->
+  <div class="facebook-info">
+    <h2>Follow Us on Facebook</h2>
+    <a href="https://www.facebook.com/profile.php?id=100084960971893">
+      <img src="images/FB_logo.png" alt="Facebook Logo" width="50">
+    </a>
+    <p>مؤسسة الباكورة للحلول السمعية</p>
+    <p>465 likes • 498 followers</p>
+    <p>سمع افضل لحياة افضل</p>
+    <p>Amman, Jordan</p>
+    <p>+962 7 9060 4853</p>
+    <p><a href="http://sonici.com">sonici.com</a></p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div>
+      <h3>Contact Us</h3>
+      <address>
+        <p>Email: info@albakura.net</p>
+        <p>Phone: +962 7 9060 4853</p>
+      </address>
+    </div>
+    <div>
+      <h3>Follow Us</h3>
+      <a href="https://twitter.com/" aria-label="Twitter">Twitter</a> |
+      <a href="https://instagram.com/" aria-label="Instagram">Instagram</a>
+    </div>
+    <div>
+      <h3>Subscribe to Our Newsletter</h3>
+      <form action="subscribe.php" method="post">
+        <input type="email" name="email" placeholder="Your email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </footer>
+
+</body>
+</html>
